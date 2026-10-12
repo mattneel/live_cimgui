@@ -22,3 +22,14 @@ erl_crash.dump
 # Ignore package tarball (built via "mix hex.build").
 live_cimgui-*.tar
 
+# Native build artifacts. The NIF is produced by Zigler and the host executable
+# by `mix live_cimgui.build_native`; both are rebuilt by `mix compile`.
+/priv/lib/
+/priv/native/
+/native/host/zig-out/
+/native/host/.zig-cache/
+/bin/
+
+# Zigler writes the generated NIF wrapper next to the module that uses it.
+/lib/live_cimgui/.Elixir.LiveCimgui.Native.zig
+
