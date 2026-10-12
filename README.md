@@ -1,5 +1,11 @@
 # live_cimgui
 
+[![License: MIT](https://img.shields.io/github/license/mattneel/live_cimgui)](LICENSE)
+[![Elixir 1.20](https://img.shields.io/badge/Elixir-1.20-4B275F?logo=elixir&logoColor=white)](https://elixir-lang.org)
+[![OTP 28](https://img.shields.io/badge/OTP-28-A90533?logo=erlang&logoColor=white)](https://www.erlang.org)
+[![Dear ImGui 1.92.9b](https://img.shields.io/badge/Dear%20ImGui-1.92.9b-294A7A)](https://github.com/ocornut/imgui)
+[![Zig 0.16.0](https://img.shields.io/badge/Zig-0.16.0-F7A41D?logo=zig&logoColor=black)](https://ziglang.org)
+
 Native Elixir UI with LiveView semantics: a view process describes the UI, a
 native host draws it with [Dear ImGui](https://github.com/ocornut/imgui) through
 [Zigler](https://github.com/E-xyza/zigler) and
