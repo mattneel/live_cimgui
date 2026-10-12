@@ -9,7 +9,8 @@ defmodule LiveCimgui.MixProject do
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       dialyzer: [plt_add_apps: [:ex_unit]],
-      aliases: aliases()
+      aliases: aliases(),
+      usage_rules: [file: "AGENTS.md", usage_rules: :all]
     ]
   end
 
